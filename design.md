@@ -9,6 +9,7 @@ This document outlines the design of a system to handle the settlement process b
 - **Frontend**: React, Vite, Typescript, Tailwind CSS
 - **API Mocking**: MirageJS
 - **State Management**: [Ezmodel](https://www.npmjs.com/package/ezmodel)
+- **Validation/Schema**: Zod
 
 ## Objectives
 
@@ -292,6 +293,10 @@ This updated structure ensures that both Party A and Party B have dedicated inte
 - **Typescript**: Implemented for its static typing capabilities, which enhance code quality and maintainability. Typescript helps catch errors at compile-time rather than runtime, reducing the likelihood of bugs. It also improves developer productivity by providing better tooling support, such as autocompletion, refactoring, and type checking.
 
 - **Tailwind CSS**: Chosen for its utility-first CSS approach, which allows rapid and consistent styling. Tailwind's predefined classes help maintain design consistency and reduce the need for writing custom CSS, speeding up the development process.
+
+- **Zod**: Integrated for its powerful and expressive schema validation capabilities. Zod ensures that the data structures conform to expected formats, providing robust validation for API requests and responses. This helps maintain data integrity and reduces the likelihood of runtime errors due to invalid data.
+
+These technologies collectively ensure a robust, efficient, and maintainable system, facilitating a smooth development workflow and delivering a high-quality user experience.
 
 ## Future Enhancements
 
